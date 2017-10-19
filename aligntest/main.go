@@ -17,6 +17,7 @@ func init() {
 func main() {
 	flag.Parse()
 	router := gin.Default()
-	router.POST("/:media/*rpc", HandlePostMedia)
+	router.POST("/:media", HandlePostMedia)
+	router.POST("/:media/:rpc", HandlePostMedia)
 	router.Run(":8080")
 }
