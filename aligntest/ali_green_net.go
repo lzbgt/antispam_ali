@@ -14,8 +14,8 @@ import (
 const apiPath = "/green/text/scan"
 const apiPathImageSync = "/green/image/scan"
 const apiPathImageAsync = "/green/image/asyncscan"
-const apiPathVideoSync = "/green/text/scan"
-const apiPathVideoAsync = "/green/text/scan"
+const apiPathVideoSync = "/green/video/scan"
+const apiPathVideoAsync = "/green/video/scan"
 const bizType = ""
 var clientInfo = &greensdksample.ClinetInfo{Ip: "127.0.0.1"}
 var profile = &greensdksample.Profile{AccessKeyId: accessKeyId, AccessKeySecret: accessKeySecret}
